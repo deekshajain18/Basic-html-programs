@@ -17,9 +17,9 @@ This repository contains several HTML form examples. Each form serves a differen
    - Includes social media links and a contact button.
 
 4. **Registration form (`registration_form.html`):**
-   - Collects personal information,  hobbies, and address details.
+   - Collects personal information, hobbies, and address details.
    - Allows users to attach a photo.
-   - 
+     
 5. **Sign-Up Form (`sign_up.html`):**
    - Sign-up form with fields for personal information, date of birth, gender, country, email, phone, password, and more.
    - Includes checkboxes, radio buttons, and a terms agreement.
