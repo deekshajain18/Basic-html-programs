@@ -16,7 +16,7 @@ This repository contains several HTML form examples. Each form serves a differen
    - A stylish user profile card with a profile picture.
    - Includes social media links and a contact button.
 
-4.**Registration form ('registration_form.html'):
+4. **Registration form ('registration_form.html'):
   - - Collects personal information,  hobbies, and address details.
    - Allows users to attach a photo.
    - 
