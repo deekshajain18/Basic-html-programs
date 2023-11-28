@@ -1,0 +1,112 @@
+<html>
+<head>
+<title>sign up</title>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  margin: 2px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color:red;} 
+.button2 {background-color:green;} 
+</style>
+</head>
+<body bgcolor="pink">
+<table cellspacing="1" align="center">
+<tr>
+<td colspan="2" style="background-color: orange"><h3 style="color:yellow">Sign Up</h3></td>
+</tr>
+<tr>
+<td > <h4 style="color:yellow"> First Name     
+<input type="text" name="firstname"></td> 
+</br> </br> 
+</tr>
+<tr>
+<td > <h4 style="color:yellow">Last Name
+<input type="text" name="lastname"></td>
+</br> </br> 
+</tr>
+<tr>
+<td > <h4 style="color:yellow">Date Of Birth 
+<select>  
+<option value="date" align="center" size="2">Date</option>  
+<option value="1">01</option>  
+<option value="2">02</option>  
+<option value="3">03</option>  
+<option value="4">04</option>  
+<option value="5">05</option>  
+<option value="6">06</option>  
+<option value="7">07</option>
+</select> 
+<select>  
+<option value="month" align="center">Month</option>  
+<option value="j">January</option>  
+<option value="f">February</option>  
+<option value="m">March </option>  
+<option value="a">April </option>  
+<option value="ma">May </option>  
+<option value="j">June</option>  
+<option value="ju">July</option>
+<option value="au">August</option>  
+<option value="s">September</option>
+<option value="o">October</option>
+<option value="n">November</option>
+<option value="d">December</option>
+</select> 
+<select>  
+<option value="year" align="center">Year</option>  
+<option value="2001">2001</option>  
+<option value="2002">2002</option>  
+<option value="2003">2003</option>  
+<option value="2004">2004</option>  
+<option value="2005">2005</option>  
+<option value="2006">2006</option>  
+<option value="2007">2007</option>
+</select></br></br> </td>
+</tr>
+<tr>
+<td > <h4 style="color:yellow">Gender:
+<input type="radio" id="male" name="gender" value="Male">Male 
+<input type="radio" id="female" name="gender" value="Female">Female <br><br></td>
+</tr>
+<tr>
+<td > <h4 style="color:yellow">Country
+<select>
+<option value="country">Country</option>
+<option value="IN">INDIA</option>
+<option value="KO">SOUTH KOREA</option>
+<option value="US">UNITED STATES</OPTION>
+</select></br></br></td>
+</tr>
+<tr>
+<td > <h4 style="color:yellow">Email
+<input type="email" id="email" name="email"/> <br><br></td>
+</tr>
+<tr>
+<td ><h4 style="color:yellow">Phone  
+<input type="number" id="phone" name="phone"> </br></br></td>
+</tr>
+<tr>
+<td for="pass" " ><h4 style="color:yellow">Password
+<input type="password" id="pass" class="text" name="your_pass" value="" onblur="passchk()"/></br></br></td>
+</tr>
+<tr>
+<td for="c_pass" ><h4 style="color:yellow">Confirm Password
+<input type="password" id="c_pass" class="text" name="your_c_pass" value="" onblur="confirmPass()"/><br></td>
+</tr>
+<tr>
+<td ><input type="checkbox" name="terms" ><h4 style="color:yellow">I Agree to the Terms of use</td>
+</tr>
+<tr>
+<td style="background-color: orange" align="right"><button class="button button1">Submit</button>
+<button class="button button2">Cancle</button></td>
+</tr>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<html>  
+<head>   
+<title>  
+Registration Page  
+</title>  
+</head>  
+<body bgcolor="pink" align="center">
+<h2 style="color:red">Personal Details</h2>  
+<form action="list.html">  
+<label> Name: </label>         
+<input type="text" name="firstname" /> <br> <br>     
+<lable>Password:</lable>  
+<input type="Password" id="pass" name="pass"> <br><br>
+<label>Email:</label>
+<input type="email" id="email" name="email"/> <br>   <br>
+<label>Gender:</label>   
+<input type="radio" name="male"/> Male  
+<input type="radio" name="female"/> Female   
+<br>  
+<br> 
+<label>Phone:</label> 
+<input type="text" name="country code"  value="+91" size="2"/>   
+<input type="text" name="phone" size="10"/> <br>     
+<label>
+<h2 style="color:red">Educational Qualification</h2>   
+<label>Degree :</label>     
+<select>  
+<option value="Course">--Select Group--</option>  
+<option value="BCA">BCA</option>  
+<option value="BBA">BBA</option>  
+<option value="BE">BE</option>  
+<option value="MBA">MBA</option>  
+<option value="MCA">MCA</option>  
+<option value="M.Tech">M.Tech</option>  
+</select><br> <br>   
+<label>Engineering:</label>    
+<select>  
+<option value="engineering" align="center" size="25">--Select Group--</option>  
+<option value="cs">Computer science engineering</option>  
+<option value="is">Information science engineering</option>  
+<option value="aids">Artificial intaligence and data science engineering</option>  
+<option value="ec">Eletronics and communication engineering</option>  
+<option value="eee">Eletrical and eletronics engineering</option>  
+<option value="me">Mechanical engineering</option>  
+<option value="ce">Civil engineering</option>
+</select>  
+<br>  
+<br> 
+<lable> Hobbies:</lable>
+<input type="checkbox" name="chess" >Playing Chess 
+<input type="checkbox" name="books" >Reading Books
+</br>
+<h2 style="color:red">Address</h2>  
+<br>  
+<textarea cols="40" rows="5" value="address">  
+</textarea>  
+<br> <br> 
+<lable>Attach Resume:</lable>
+<input type="file" id="file"> </br></br>    
+<input type="button" value="Submit"/>  
+</form>  
+</body>  
+</html>
